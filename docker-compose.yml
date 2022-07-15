@@ -1,0 +1,10 @@
+---
+version: "2"
+services:
+  mindmaps:
+    #build: .
+    image: itom34/mindmaps:latest
+    container_name: mindmaps
+    ports:
+      - 3000:3000
+    restart: unless-stopped

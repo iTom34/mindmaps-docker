@@ -1,0 +1,3 @@
+[submodule "mindmaps"]
+	path = mindmaps
+	url = https://github.com/drichard/mindmaps
